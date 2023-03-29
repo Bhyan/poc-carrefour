@@ -1,0 +1,7 @@
+version: '9.4'
+services:
+  cypress:
+    image: "cypress/included:9.4.1"
+    working_dir: /e2e
+    volumes:
+      - ./:/e2e
