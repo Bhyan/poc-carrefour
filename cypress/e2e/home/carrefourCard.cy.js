@@ -1,5 +1,6 @@
 import navBar from "../../support/component/navBar";
 import regionalization from "../../support/component/regionalization";
+import carrefourCard from "../../support/page/carrefourCard";
 import home from "../../support/page/home"
 
 
@@ -10,6 +11,7 @@ describe("Cartão Carrefour", function () {
             regionalization.receive();
             regionalization.fillCEP();
             navBar.clickCarrefourCard();
+            carrefourCard.verifyTitle();
 
 
         })
