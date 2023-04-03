@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx cypress open",
-    "run": "npx cypress run",
-    "prod": "npx cypress run --config baseUrl=https://mercadopreprod.cloud.carrefour.com.br/"
+    "prod": "npx cypress run",
+    "pprod": "npx cypress run --config baseUrl=https://mercadopreprod.cloud.carrefour.com.br/"
   },
   "author": "",
   "license": "ISC",

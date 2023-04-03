@@ -3,7 +3,7 @@ import regionalization from "../../support/component/regionalization";
 import search from "../../support/component/search";
 import home from "../../support/page/home";
 
-describe("Search", function () {
+describe("Busca", function () {
   context("Quando o usuário busca por um produto válido", function () {
     it("Então o site deve mostrar uma lista de produtos", function () {
       const sr = searchFactory.search();
