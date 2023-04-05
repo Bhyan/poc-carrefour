@@ -3,7 +3,6 @@ import regionalization from "../../support/component/regionalization";
 import carrefourCard from "../../support/page/carrefourCard";
 import home from "../../support/page/home"
 
-
 describe("Cartão Carrefour", function () {
     context("Quando o usuário clicar no link do Cartão Carrefour", function () {
         it("Então a página Cartão Carrefour é carregada", function () {
@@ -12,10 +11,6 @@ describe("Cartão Carrefour", function () {
             regionalization.fillCEP();
             navBar.clickCarrefourCard();
             carrefourCard.verifyTitle();
-
-
         })
-
-
     })
 })
