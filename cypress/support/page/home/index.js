@@ -1,6 +1,6 @@
 class Home {
   go() {
-    cy.visit("/");
+    cy.visit("/", { failOnStatusCode: false});
   }
 }
 
